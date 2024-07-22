@@ -6,6 +6,7 @@
 - [ ] 尝试修改某些限制，比如很慢的矩阵乘法。
 - [ ] 实现一个可变的QKV块
 - [ ] 添加反向传播
+ 
 ————————————————————origin————————————————————————————
 
 A minimal re-implementation of Flash Attention with CUDA and PyTorch. 
