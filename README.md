@@ -1,4 +1,13 @@
-# flash-attention-minimal
+# flash-attention-minimal中文增强版
+
+## 在之前的基础上我们要做什么？
+- [x] 添加代码阅读注释
+- [ ] 尝试实现一个fp16的版本
+- [ ] 尝试修改某些限制，比如很慢的矩阵乘法。
+- [ ] 实现一个可变的QKV块
+- [ ] 添加反向传播
+————————————————————origin————————————————————————————
+
 A minimal re-implementation of Flash Attention with CUDA and PyTorch. 
 The official [implementation](https://github.com/Dao-AILab/flash-attention) can be quite daunting for a CUDA beginner
 (like myself), so this repo tries to be small and educational.
@@ -31,8 +40,6 @@ Self CUDA time total: 3.908ms
 ```
 Speed-up achieved! 
 
-### I don't have a GPU
-Try out this [online colab demo](https://colab.research.google.com/gist/tspeterkim/143bc7be7a845656817cf94c5228598e/demo-flash-attention-minimal.ipynb).
 
 ## Caveats
 * No backward pass! To be honest, I found it a lot more complex than the forward pass, which was enough to show the
